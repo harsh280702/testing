@@ -5,7 +5,7 @@ pipeline{
 
          stage("compile"){          
            steps{
-             sh 'javac Test.java'
+             sh 'javac .\Test.java'
            }
          }
          stage("run")
